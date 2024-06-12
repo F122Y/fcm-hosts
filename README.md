@@ -22,3 +22,7 @@ https://gcore.jsdelivr.net/gh/entr0pia/fcm-hosts@fcm/fcm-hosts
 
 https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts
 
+## 测试
+
+可以使用 [FCM Toolbox](https://github.com/SimonMarquis/FCM-toolbox) 测试消息送达的情况
+
