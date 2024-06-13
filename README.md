@@ -16,6 +16,8 @@ Android 14+或某些时期可能需要这个
 180.163.150.33      dl.l.google.com
 ```
 
+如果你的手机上装了 Magisk，也可以考虑使用 [systemless-fcm-hosts](https://github.com/Goooler/systemless-fcm-hosts) 集成
+
 ## 规则订阅
 
 https://gcore.jsdelivr.net/gh/entr0pia/fcm-hosts@fcm/fcm-hosts
