@@ -2,6 +2,20 @@
 
 Android 14+或某些时期可能需要这个
 
+## 新方案
+
+hosts方案有时候也会断连。现在推荐dns分流方案：
+
+0. 如果以前设置过hosts，请删掉
+1. 添加`geosite:googlefcm`策略，DNS使用国内doh服务。注意，无论你设置了`cn`还是`!cn`策略，保证它是最后一条
+2. `proxy_group`中添加谷歌FCM，并设为直连
+
+![image](https://github.com/user-attachments/assets/ca5e614e-9916-4193-938a-8da71b31962f)
+
+## hosts方案
+
+<details><summary>展开/收起</summary>
+
 ```
 142.250.157.188     mtalk.google.com
 74.125.200.188      alt1-mtalk.google.com
@@ -23,6 +37,10 @@ Android 14+或某些时期可能需要这个
 https://gcore.jsdelivr.net/gh/entr0pia/fcm-hosts@fcm/fcm-hosts
 
 https://github.com/entr0pia/fcm-hosts/raw/fcm/fcm-hosts
+
+</details>
+
+
 
 ## 测试
 
